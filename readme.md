@@ -1,4 +1,4 @@
-# SelfOrg: Bio-Inspired Self-Organizing Knowledge Graph for LLMs
+# Self Conceptualizing Cognitive Graph: Bio-Inspired Self-Organizing Knowledge Graph for LLMs
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -6,7 +6,7 @@
 
 ## Overview
 
-SelfOrg is a groundbreaking framework that enables Large Language Models (LLMs) to autonomously conceptualize and organize their knowledge into dynamic, evolving knowledge graphs. By combining state-of-the-art language models with biologically-inspired mechanisms, SelfOrg creates a self-organizing conceptual network that mimics how living systems adapt, evolve, and self-regulate.
+CogniGraph is a groundbreaking framework that enables Large Language Models (LLMs) to autonomously conceptualize and organize their knowledge into dynamic, evolving knowledge graphs. By combining state-of-the-art language models with biologically-inspired mechanisms, CogniGraph creates a self-organizing conceptual network that mimics how living systems adapt, evolve, and self-regulate.
 
 This project aims to address key challenges in LLM deployment:
 - **Reducing model size requirements** by externalizing knowledge representation
@@ -38,13 +38,16 @@ This project aims to address key challenges in LLM deployment:
 
 ## Architecture
 
-SelfOrg consists of five core components:
+CogniGraph consists of five core components:
 
 1. **ConceptNetworkManager**: Orchestrates the entire system, managing data flow between components
 2. **ConceptExtractor**: Analyzes model activations and text to identify meaningful concepts
 3. **BioInspiredNetwork**: Implements biological computing metaphors for network adaptation
 4. **DynamicConceptEvolver**: Handles the evolution and adaptation of concepts over time
 5. **SelfExplorer**: Autonomously explores and expands the knowledge graph
+
+**Architecture Diagram**  
+![Architecture Diagram illustrating the relationships between components](images/architecture.png)
 
 ## Installation
 
@@ -146,6 +149,12 @@ The `ConceptExtractor` identifies meaningful concepts from text and model activa
 2. **Linguistic Patterns**: Identifying named entities, technical terms, and acronyms
 3. **Activation Patterns**: Detecting concepts from neuron activation strength
 
+**Interaction Flow**  
+![Sequence Diagram showing the interaction between components](images/sequence.png)
+
+**Processing Steps**  
+![Flowchart detailing the concept processing pipeline](images/flowchart.png)
+
 ### Biologically-Inspired Adaptation
 
 The `BioInspiredNetwork` implements three biological computing metaphors:
@@ -196,9 +205,12 @@ The `SelfExplorer` drives autonomous knowledge discovery:
 3. Infers relationships and connection types
 4. Adds new concepts to the exploration queue
 
+**Exploration States**  
+![State Diagram of the self-exploration process](images/state.png)
+
 ## Performance Optimization
 
-SelfOrg implements several optimizations for efficient operation:
+CogniGraph implements several optimizations for efficient operation:
 
 1. **CPU-only operation mode**: Functions without GPU requirements
 2. **Low memory usage**: Configured for minimum RAM consumption
@@ -231,3 +243,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - This project draws inspiration from immune system computing, neural plasticity research, and gene regulatory networks
 - Special thanks to the Neo4j and HuggingFace teams for their excellent libraries
 - Built with IBM's Granite 3.2 8B parameter reasoning model
+
+## Contact
+
+For questions, feedback, or collaboration opportunities, please reach out:
+
+- **Website**: [Frontier Tech Strategies](https://frontiertechstrategies.com)
+- **Email**: [chris@frontiertechstrategies.com](mailto:chris@frontiertechstrategies.com)
+- **LinkedIn**: [Christopher Royse](https://www.linkedin.com/in/christopher-royse-b624b596/)

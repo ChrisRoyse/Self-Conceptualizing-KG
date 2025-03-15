@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.env
+.venv
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Model files and large data
+granite_3.2_8b_model/
+model_offload/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.h5
+
+# Project specific
+combined_files.txt
+knowledge_graph.log
+
+# OS specific
+.DS_Store
+Thumbs.db 

@@ -1,0 +1,37 @@
+{
+    "neo4j": {
+        "uri": "bolt://localhost:7687",
+        "user": "neo4j",
+        "password": "PASSWORD_HERE",
+        "database": "selforg"
+    },
+    "model": {
+        "path": "granite_3.2_8b_model",
+        "load_in_8bit": false,
+        "device_map": null,
+        "offload_state_dict": true,
+        "low_cpu_mem_usage": true,
+        "torch_dtype": "float32",
+        "max_memory": {
+            "cpu": "32GiB"
+        }
+    },
+    "inference": {
+        "max_batch_size": 1,
+        "max_length": 128,
+        "use_cache": true,
+        "cpu_offload": true,
+        "torch_dtype": "float32"
+    },
+    "gds": {
+        "similarity_threshold": 0.6,
+        "community_detection": {
+            "algorithm": "louvain",
+            "min_community_size": 3
+        },
+        "embedding": {
+            "dimension": 128,
+            "iterations": 10
+        }
+    }
+} 
